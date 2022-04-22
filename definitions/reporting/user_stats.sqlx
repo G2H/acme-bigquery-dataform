@@ -15,7 +15,7 @@ config {
     last_badge_received_at: `The time the user received their most recent badge`,
     last_posted_at: `The time the user last posted a question or answer`,
     last_question_posted_at: `The time the user last posted an answer`,
-    last_answer_posted_at: `The time the user last posted a question`,
+    last_answer_posted_at: `The time the user last posted a question with adam's edit`,
   },
   assertions: {
     uniqueKey: ["user_id"],
