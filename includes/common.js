@@ -9,7 +9,8 @@ function ageBucket(age) {
             when ${age_clean} between 0 and 18 then "Under 18"
             when ${age_clean} between 19 and 35 then "19 to 35"
             when ${age_clean} between 36 and 50 then "36 to 50"
-            else "50+"
+            when ${age_clean} between 50 and 55 then "50 to 55"
+            else "55+"
           end`;
 }
 
